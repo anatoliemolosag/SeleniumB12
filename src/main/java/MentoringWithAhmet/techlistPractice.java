@@ -27,15 +27,13 @@ public class techlistPractice {
 
 //motherfucker
 //yes
-<<<<<<< HEAD
-        //////
-=======
+
         //
 
 //no
 //motherfucker
 ////
 
->>>>>>> 2a52fa8e4aba82e0ab30371e41bb01e6619c4f5f
+
     }
 }
