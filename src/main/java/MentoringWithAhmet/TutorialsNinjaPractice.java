@@ -13,6 +13,7 @@ public class TutorialsNinjaPractice {
         WebDriver driver = new ChromeDriver();
         System.setProperty("webdriver.chrome.driver","chromedriver");
 
+
         driver.get("http://tutorialsninja.com/demo/index.php?route=account/register");
         driver.manage().window().maximize();
 
