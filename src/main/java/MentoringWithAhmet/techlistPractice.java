@@ -24,8 +24,14 @@ public class techlistPractice {
 
 
 
+
 //motherfucker
 //yes
         //
+
+//no
+//motherfucker
+////
+
     }
 }
