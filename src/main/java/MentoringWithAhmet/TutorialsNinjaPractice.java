@@ -20,6 +20,7 @@ public class TutorialsNinjaPractice {
         WebElement firstNameBox = driver.findElement(By.name("firstname"));
         firstNameBox.sendKeys("Toni");
 
+
         WebElement lastNameBox = driver.findElement(By.name("lastname"));
         lastNameBox.sendKeys("Montana");
 
