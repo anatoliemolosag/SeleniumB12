@@ -49,7 +49,7 @@ public class TutorialsNinjaPractice {
         WebElement message = driver.findElement(By.id("content"));
         System.out.println(message.getText());
 
-        //driver.close();
+        driver.close();
 
 
 
