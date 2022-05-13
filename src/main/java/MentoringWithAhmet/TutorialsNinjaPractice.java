@@ -31,6 +31,7 @@ public class TutorialsNinjaPractice {
         WebElement passwordBox = driver.findElement(By.name("password"));
         passwordBox.sendKeys("abcdefg");
 
+
         WebElement confirmPasswordBox = driver.findElement(By.name("confirm"));
         confirmPasswordBox.sendKeys("abcdefg");
 
