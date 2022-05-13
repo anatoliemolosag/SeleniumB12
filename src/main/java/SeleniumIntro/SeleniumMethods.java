@@ -21,6 +21,8 @@ public class SeleniumMethods {
         Thread.sleep(3000);
         driver.navigate().refresh(); //it will refresh website
         System.out.println(driver.getPageSource());
+        
+        
 
     }
 }
