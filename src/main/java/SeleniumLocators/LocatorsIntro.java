@@ -75,15 +75,40 @@ public class LocatorsIntro {
         confirmPasswordBox.sendKeys("123456789");
 
         String actualConfirmPasswordBox = confirmPasswordBox.getText();
-        String expectedConfirmPasswordBox = "123456789";
+        String expectedConfirmPasswordBox = "";
         if (actualConfirmPasswordBox.equals(expectedConfirmPasswordBox)){
-            System.out.println("passed");
+            System.out.println("password passed");
         }else {
-            System.out.println("failed");
+            System.out.println("password failed");
         }
+       //click(),isSelected(), isDisplayed();
+        WebElement javaBox =driver.findElement(By.id("cond1"));
+        System.out.println(javaBox.isDisplayed());//true
+        System.out.println( javaBox.isSelected());//false
+        javaBox.click();//-->it clicks the element.
+        System.out.println(javaBox.isSelected());//true
+
+        WebElement seleniumBox = driver.findElement(By.id("cond2"));
+        System.out.println(seleniumBox.isDisplayed());
+        //seleniumBox.click();
+        System.out.println(seleniumBox.isSelected());
+
+        WebElement testNGBox = driver.findElement(By.id("cond3"));
+        System.out.println(testNGBox.isDisplayed());
+        testNGBox.click();
+        System.out.println(testNGBox.isSelected());
+
+        WebElement cucumberBox = driver.findElement(By.id("cond4"));
+        System.out.println(cucumberBox.isDisplayed());
+        cucumberBox.click();
+        System.out.println(cucumberBox.isSelected());
 
 
-       // driver.close();
+        //Give a man a fish you feed him for a day
+        //teach a mean to fish you feed him for whole life
+
+
+        driver.close();
 
 
 
